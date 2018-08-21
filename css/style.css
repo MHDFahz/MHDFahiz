@@ -541,8 +541,8 @@ header {
   color: #049dff; }
 
 .progress.blue .progress-left .progress-bar {
-  -webkit-animation: loading-2 1.5s linear forwards 1.8s;
-  animation: loading-2 1.5s linear forwards 1.8s; }
+  -webkit-animation: loading-2 1s linear forwards 1.8s;
+  animation: loading-2 1s linear forwards 1.8s; }
 
 .progress.yellow .progress-bar {
   border-color: #fdba04; }
@@ -551,8 +551,8 @@ header {
   color: #fdba04; }
 
 .progress.yellow .progress-left .progress-bar {
-  -webkit-animation: loading-3 1s linear forwards 1.8s;
-  animation: loading-3 1s linear forwards 1.8s; }
+  -webkit-animation: loading-5s linear forwards 1.8s;
+  animation: loading-5s linear forwards 1.8s; }
 
 .progress.pink .progress-bar {
   border-color: #ed687c; }
@@ -571,8 +571,8 @@ header {
   color: #1abc9c; }
 
 .progress.green .progress-left .progress-bar {
-  -webkit-animation: loading-5 1.2s linear forwards 1.8s;
-  animation: loading-5 1.2s linear forwards 1.8s; }
+  -webkit-animation: loading-4 1.2s linear forwards 1.8s;
+  animation: loading-4 1.2s linear forwards 1.8s; }
 
 @-webkit-keyframes loading-1 {
   0% {
