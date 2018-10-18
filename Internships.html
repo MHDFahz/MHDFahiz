@@ -47,7 +47,31 @@
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
-	
+	<style>
+		progress[value]::-webkit-progress-value {
+  background-image:
+	   -webkit-linear-gradient(-45deg, 
+	                           transparent 33%, rgba(0, 0, 0, .1) 33%, 
+	                           rgba(0,0, 0, .1) 66%, transparent 66%),
+	   -webkit-linear-gradient(top, 
+	                           rgba(255, 255, 255, .25), 
+	                           rgba(0, 0, 0, .25)),
+	   -webkit-linear-gradient(left, #09c, #f44);
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+.Progress-bar {
+    margin-top: 0.95em;
+    background-color: $progressBarColour;
+    height: 0.3em;
+}
+.Progress-value {
+    background-color: $progressValueColour;
+    display: block;
+    height: 0.3em;
+}
+	</style>
 	</head>
 	<body>
 
@@ -184,11 +208,16 @@
 			<a href="https://drive.google.com/drive/folders/1pKlZmmmHWbbKdCas4N7a16LTKRP7qRk-">TASK 4</a><br><progress value="100" max="100" style="width: 500px;height: 30px; "></progress><BR>
 			<a href="https://drive.google.com/drive/folders/1dZvjFJVbpNmJjE1V_B-LwJGZVfDZdWda">TASK 5</a><br><progress value="100" max="100" style="width: 500px;height: 30px; "></progress><br>
 			<a href="https://drive.google.com/drive/folders/1TS-6l7dg7OMHT933Aoez3S5Cde0CGc7_">TASK 6</a><br><progress value="100" max="100" style="width: 500px;height: 30px; "></progress><br>
-			<a href="https://drive.google.com/drive/folders/15hdaxMYIRzxatu9c9ZmaV2dRWPjTiOaZ">TASK 7</a><br><progress value="20" max="100" style="width: 500px;height: 30px; "></progress>
+			<a href="https://drive.google.com/drive/folders/1TS-6l7dg7OMHT933Aoez3S5Cde0CGc7_">TASK 7</a><br><progress value="100" max="100" style="width: 500px;height: 30px; "></progress><br>
+			<a href="https://drive.google.com/drive/folders/1TS-6l7dg7OMHT933Aoez3S5Cde0CGc7_">TASK 8</a><br><progress value="0" max="100" style="width: 500px;height: 30px; "></progress><br>
+			<a href="https://drive.google.com/drive/folders/1TS-6l7dg7OMHT933Aoez3S5Cde0CGc7_">TASK 9</a><br><progress value="20" max="100" style="width: 500px;height: 30px; "></progress><br>
+			<a href="https://drive.google.com/drive/folders/1TS-6l7dg7OMHT933Aoez3S5Cde0CGc7_">TASK 10</a><br><progress value="10" max="100" style="width: 500px;height: 30px; "></progress><br>
+			<a href="https://drive.google.com/drive/folders/1TS-6l7dg7OMHT933Aoez3S5Cde0CGc7_">TASK 11</a><br><progress value="0" max="100" style="width: 500px;height: 30px; "></progress>
+
 
 		</div>
 		<div style="float: left;width: 50%;">
-			<iframe src="https://docs.google.com/spreadsheets/d/1mDWfhQIrO6pwdh8yZkofyPvDKeTOFiytXeyZMlcGKMo/edit?usp=drive_web&ouid=117337420585762302143" style="height: 700px; width: 600px;"></iframe>
+			<iframe src="https://docs.google.com/spreadsheets/d/1mDWfhQIrO6pwdh8yZkofyPvDKeTOFiytXeyZMlcGKMo/edit?usp=drive_web&ouid=117337420585762302143" style="height: 900px; width: 600px;"></iframe>
 
 		</div>
 
