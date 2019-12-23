@@ -3,9 +3,13 @@ var x;
 var ttscore,prescore;
 var dice;
 var game;
+var gamerules
+
+gamerules=alert('GAME RULES: The game has 2 players, playing in rounds.In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score BUT, if the player rolls a 1, all his ROUND score gets lost. After that, its the next players turn.The player can choose to Hold, which means that his ROUND score gets added to his TOTAL score. After that, its the next players turn.The first player to reach 100 points on TOTAL score wins the game');
 
 user1=prompt('Enter name of user 1');
 user2=prompt('Enter name of user 2');
+
 play();
 
 function play(){

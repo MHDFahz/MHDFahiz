@@ -8,23 +8,37 @@ Author: Eallisto Pvt Ltd.
 - BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn
 - The player can choose to 'Hold', which means that his ROUND score gets added to his GLBAL score. After that, it's the next player's turn
 - The first player to reach 100 points on GLOBAL score wins the game
-
+ßßß
 
  -->
 
 <!DOCTYPE html>
 <html lang="en">
     <head>
+		<link rel="shortcut icon" href="favicon.png">
         <meta charset="UTF-8">
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,600" rel="stylesheet" type="text/css">
         <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
         <link type="text/css" rel="stylesheet" href="style.css">
+		        <link type="text/css" rel="stylesheet" href="tyle.css">
+
         
-        <title>Eallisto- Internship - Game</title>
+        <title>Roll Dice Game</title>
     </head>
 
     <body>
         <div class="wrapper clearfix">
+			<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="colorlib-navbar-brand">
+							<a class="colorlib-logo" href="../home.html"><span>FA</span><span>HIZ</span></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
             <div class="player-0-panel active">
                 <div class="player-name" id="name-0">Player 1</div>
                 <div class="player-score" id="score-0">43</div>
@@ -47,7 +61,7 @@ Author: Eallisto Pvt Ltd.
             <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
             <button class="btn-roll"><i class="ion-ios-loop"></i>Roll dice</button>
             <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
-            <button class="btn-show"><i class="ion-ios-body"></i>Eallisto</button>
+            <button class="btn-show"><i class="ion-ios-body"></i>Roll Dice Game</button>
             
             <img src="dice-9.gif" alt="Dice" class="dice">
         </div>
