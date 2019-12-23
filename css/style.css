@@ -457,6 +457,7 @@ header {
   background-repeat: no-repeat;
   position: relative; }
 
+
 .progress-head {
   font-size: 22px; }
 
@@ -711,15 +712,50 @@ header {
   float: left; }
   .work-entry .work-img {
     width: 100%;
-    height: 700px;
+    height: 100px;
     margin-bottom: 40px;
     display: table;
     text-align: center;
     text-decoration: none; }
+.work-entry1 {
+  display: block;
+  margin-bottom: 5em;
+  width: 100%;
+  float: left; }
+  .work-entry1 .work-img1 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+    display: table;
+    text-align: center;
+    text-decoration: none; }
+.work-entry2 {
+  display: block;
+  margin-bottom: 5em;
+  width: 100%;
+  float: left; }
+  .work-entry2 .work-img2 {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 40px;
+    display: table;
+    text-align: center;
+    text-decoration: none; }
+
+#project1{
+	background-image: url("mes.png");
+	
+}
+#project1{
+	background-image: url("mes.png");
+	
+}
+
     .work-entry .work-img .display-t {
       display: table-cell;
       vertical-align: middle;
-      height: 700px;
+      height: 200px;
+		background-image: url("dice.jpeg");
       position: relative;
       z-index: 0; }
       .work-entry .work-img .display-t:after {
@@ -738,7 +774,7 @@ header {
       .work-entry .work-img .display-t .work-name {
         display: inline-block;
         padding: 4em 3em;
-        background: #fff;
+        background-image: url("dice.png");
         -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
         -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
         -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
@@ -761,9 +797,9 @@ header {
         font-size: 34px; }
     @media screen and (max-width: 768px) {
       .work-entry .work-img {
-        height: 400px; }
+        height: 300px; }
         .work-entry .work-img .display-t {
-          height: 400px; } }
+          height: 300px; } }
   .work-entry .desc .read {
     text-align: right; }
     .work-entry .desc .read a {
@@ -773,6 +809,140 @@ header {
       font-size: 12px;
       position: relative; }
       .work-entry .desc .read a:after {
+        position: absolute;
+        top: 7px;
+        left: -60px;
+        right: 0;
+        content: '';
+        width: 40px;
+        height: 1px;
+        background: #000; }
+.work-entry1 .work-img1 .display-t1 {
+      display: table-cell;
+      vertical-align: middle;
+      height: 200px;
+		background-image: url("mes.png");
+		background-repeat: no-repeat;
+      position: relative;
+      z-index: 0; }
+      .work-entry1 .work-img1 .display-t1:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        background: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+        opacity: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+      .work-entry1 .work-img1 .display-t1 .work-name1 {
+        display: inline-block;
+        padding: 4em 3em;
+        background-image: url("mes1.png");
+        -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        z-index: 1;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        .work-entry1 .work-img1 .display-t1 .work-name1 h2 {
+          margin: 0;
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
+    .work-entry1 .work-img1:hover .display-t1:after {
+      opacity: 1; }
+    .work-entry1 .work-img1:hover .display-t1 .work-name1 {
+      padding: 4.5em 3.5em; }
+      .work-entry1 .work-img1:hover .display-t1 .work-name1 h2 {
+        font-size: 34px; }
+    @media screen and (max-width: 768px) {
+      .work-entry1 .work-img1 {
+        height: 300px; }
+        .work-entry1 .work-img1 .display-t1 {
+          height: 300px; } }
+  .work-entry1 .desc .read {
+    text-align: right; }
+    .work-entry1 .desc .read a {
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 12px;
+      position: relative; }
+      .work-entry1 .desc .read a:after {
+        position: absolute;
+        top: 7px;
+        left: -60px;
+        right: 0;
+        content: '';
+        width: 40px;
+        height: 1px;
+        background: #000; }
+.work-entry2 .work-img2 .display-t2 {
+      display: table-cell;
+      vertical-align: middle;
+      height: 200px;
+		background-image: url("india.png");
+	background-repeat: no-repeat;
+      position: relative;
+      z-index: 0; }
+      .work-entry2 .work-img2 .display-t2:after {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        content: '';
+        background: rgba(0, 0, 0, 0.4);
+        z-index: -1;
+        opacity: 0;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+      .work-entry2 .work-img2 .display-t2 .work-name2 {
+        display: inline-block;
+        padding: 4em 3em;
+        background-image: url("india1.png");
+        -webkit-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -moz-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -ms-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        -o-box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        box-shadow: 0px 2px 49px -4px rgba(0, 0, 0, 0.21);
+        z-index: 1;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s; }
+        .work-entry2 .work-img2 .display-t2 .work-name2 h2 {
+          margin: 0;
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
+    .work-entry2 .work-img2:hover .display-t2:after {
+      opacity: 1; }
+    .work-entry2 .work-img2:hover .display-t2 .work-name2 {
+      padding: 4.5em 3.5em; }
+      .work-entry2 .work-img2:hover .display-t2 .work-name2 h2 {
+        font-size: 34px; }
+    @media screen and (max-width: 768px) {
+      .work-entry2 .work-img2 {
+        height: 300px; }
+        .work-entry2 .work-img2 .display-t2 {
+          height: 300px; } }
+  .work-entry2 .desc .read {
+    text-align: right; }
+    .work-entry2 .desc .read a {
+      color: #000;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      font-size: 12px;
+      position: relative; }
+      .work-entry2 .desc .read a:after {
         position: absolute;
         top: 7px;
         left: -60px;
