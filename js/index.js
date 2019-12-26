@@ -64,7 +64,7 @@ TextScramble = function () {
 var phrases = [
 'FAHIS',
   'MUHAMMED FAHIS',
-  'JUST CLICK HERE',
+  'FAHIS',
   'muhammed fahis',
   'FahizZZZ',
   'Muhammed Fahis',
